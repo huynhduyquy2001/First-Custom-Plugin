@@ -1,0 +1,14 @@
+{
+    "name": "anonymous/woocommerce-appota-pay",
+    "description": "vendor for plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nghiaPm",
+            "email": "minhnghia.pham.it@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "5.0"
+    }
+}

@@ -1,0 +1,6 @@
+@import "../../../css/mixins";
+
+.automatewoo-placeholder-component {
+
+	@include placeholder();
+}

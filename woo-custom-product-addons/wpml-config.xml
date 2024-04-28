@@ -1,0 +1,56 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">wcpa_exclude_global_forms</custom-field>
+        <custom-field action="copy">_wcpa_product_meta</custom-field>
+        <custom-field action="copy">wcpa_product_meta_order</custom-field>
+        <!--  <custom-field action="ignore">_wcpa_fb-editor-data</custom-field>
+         <custom-field action="ignore">wcpa_drct_prchsble</custom-field>
+         <custom-field action="ignore">wcpa_meta_settings_key</custom-field> -->
+    </custom-fields>
+
+    <admin-texts>
+        <key name="wcpa_settings_key">
+            <key name="summary_title" />
+            <key name="options_total_label" />
+            <key name="options_product_label" />
+            <key name="total_label" />
+            <key name="fee_label" />
+
+            <key name="field_option_price_format" />
+
+            <key name="add_to_cart_text" />
+            <key name="price_prefix_label" />
+
+
+            <key name="other_text" />
+            <key name="clearSelection_text" />
+            <key name="repeater_add_text" />
+            <key name="repeater_remove_text" />
+
+
+            <key name="wcpa_validation_strings">
+                <key name="uploadPending" />
+                <key name="formError" />
+                <key name="checkCaptcha" />
+                <key name="validation_requiredError" />
+                <key name="validation_allowedCharsError" />
+                <key name="validation_patternError" />
+                <key name="validation_minlengthError" />
+                <key name="validation_maxlengthError" />
+                <key name="validation_minValueError" />
+                <key name="validation_maxValueError" />
+                <key name="validation_minFieldsError" />
+                <key name="validation_otherFieldError" />
+                <key name="validEmailError" />
+                <key name="validUrlError" />
+
+
+            </key>
+        </key>
+
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1" automatic="0">wcpa_pt_forms</custom-type>
+        <custom-type translate="1" automatic="0">wcpa_pt_options</custom-type>
+    </custom-types>
+</wpml-config>
